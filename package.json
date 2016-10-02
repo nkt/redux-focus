@@ -1,0 +1,32 @@
+{
+  "name": "redux-focus",
+  "version": "0.0.0",
+  "description": "Handle auto-focus in your application",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "babel -d lib/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkt/redux-focus.git"
+  },
+  "keywords": [
+    "redux",
+    "focus",
+    "autofocus"
+  ],
+  "author": "Nikita Gusakov <gusnkt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkt/redux-focus/issues"
+  },
+  "homepage": "https://github.com/nkt/redux-focus#readme",
+  "devDependencies": {
+    "babel-cli": "6.16.0",
+    "babel-preset-es2015": "6.16.0"
+  }
+}
