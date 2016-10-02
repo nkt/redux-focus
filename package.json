@@ -8,7 +8,10 @@
     "src"
   ],
   "scripts": {
-    "build": "babel -d lib/ src/"
+    "prebuild": "rm -rf lib/",
+    "build": "babel -d lib/ src/",
+    "preversion": "npm run build",
+    "postversion": "git push --follow-tags"
   },
   "repository": {
     "type": "git",
